@@ -49,9 +49,7 @@ import { SiWhatsapp } from "react-icons/si";
 import { toast } from "sonner";
 import type { AppointmentRequest } from "./backend.d";
 
-const LOGO_SRC =
-  "https://cdn-icons-png.flaticon.com/512/2966/2966483.png";
-
+const LOGO_SRC = "/images/logo.jpg";
 const PHONE_DISPLAY = "098765 43210";
 const PHONE_TEL = "09876543210";
 const WHATSAPP_LINK = "https://wa.me/919876543210";
@@ -446,7 +444,7 @@ export default function App() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.15)] aspect-[4/3]">
               <img
-                src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db"
+                src="/images/clinic.jpg"
                 alt="MYDENT Dental Clinic Interior"
                 className="w-full h-full object-cover"
               />
@@ -517,8 +515,8 @@ export default function App() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-card max-w-sm mx-auto">
                 <img
-                  src="https://images.unsplash.com/photo-1594824388853-2f6f6b3f1f0c"
-                  alt="Dr. Priya G Kadam"
+                  src="/images/doctor.jpg"
+                  alt="Dr. Neil D"
                   className="w-full h-full object-cover"
                 />
               </div>
