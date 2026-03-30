@@ -50,7 +50,7 @@ import { toast } from "sonner";
 import type { AppointmentRequest } from "./backend.d";
 
 const LOGO_SRC =
-  "/assets/uploads/gemini_generated_image_inugurinugurinug_1-019d3980-8d20-72af-8796-c0a8cd209407-3.png";
+  "https://cdn-icons-png.flaticon.com/512/2966/2966483.png";
 
 const PHONE_DISPLAY = "098765 43210";
 const PHONE_TEL = "09876543210";
@@ -446,7 +446,7 @@ export default function App() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.15)] aspect-[4/3]">
               <img
-                src="/assets/generated/clinic-hero.dim_1200x700.jpg"
+                src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db"
                 alt="MYDENT Dental Clinic Interior"
                 className="w-full h-full object-cover"
               />
@@ -517,7 +517,7 @@ export default function App() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-card max-w-sm mx-auto">
                 <img
-                  src="/assets/generated/doctor-profile.dim_400x500.jpg"
+                  src="https://images.unsplash.com/photo-1594824388853-2f6f6b3f1f0c"
                   alt="Dr. Priya G Kadam"
                   className="w-full h-full object-cover"
                 />
