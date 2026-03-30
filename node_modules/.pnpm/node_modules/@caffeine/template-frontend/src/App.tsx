@@ -49,7 +49,7 @@ import { SiWhatsapp } from "react-icons/si";
 import { toast } from "sonner";
 import type { AppointmentRequest } from "./backend.d";
 
-const LOGO_SRC = "/images/logo.jpg";
+const LOGO_SRC = "/images/Logo.jpg";
 const PHONE_DISPLAY = "098765 43210";
 const PHONE_TEL = "09876543210";
 const WHATSAPP_LINK = "https://wa.me/919876543210";
