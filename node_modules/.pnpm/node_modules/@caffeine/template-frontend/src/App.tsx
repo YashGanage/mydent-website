@@ -51,9 +51,9 @@ import { toast } from "sonner";
 import type { AppointmentRequest } from "./backend.d";
 
 const LOGO_SRC = "/images/Logo.jpg";
-const PHONE_DISPLAY = "098765 43210";
-const PHONE_TEL = "09876543210";
-const WHATSAPP_LINK = "https://wa.me/919876543210";
+const PHONE_DISPLAY = "+918080092321";
+const PHONE_TEL = "+918080092321";
+const WHATSAPP_LINK = "https://wa.me/918080092321";
 const MAPS_QUERY =
   "https://maps.google.com/maps?q=Shop+No+7+Wing+A+Heritage+Plaza+PCMC+Link+Rd+Chinchwad+Gaon+Pimpri+Chinchwad+Maharashtra+411033";
 const MAPS_EMBED = `${MAPS_QUERY}&output=embed`;
