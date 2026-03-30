@@ -30,6 +30,7 @@ import {
   CheckCircle,
   ChevronRight,
   Clock,
+  Activity,
   Crown,
   Heart,
   Loader2,
@@ -516,7 +517,7 @@ export default function App() {
               <div className="rounded-2xl overflow-hidden shadow-card max-w-sm mx-auto">
                 <img
                   src="/images/doctor.jpg"
-                  alt="Dr. Neil Doshi"
+                  alt="Pravin G Kadam"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -532,13 +533,13 @@ export default function App() {
                   Meet Your Doctor
                 </p>
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                  Dr. Neil Doshi
+                  Dr. Pravin G Kadam
                 </h2>
                 <p className="text-gray-500 mt-1">BDS · Dental Surgeon</p>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Dr. Neil Doshi brings expertise, warmth, and unwavering
-                commitment to every patient interaction. He believes in making
+                Dr. Pravin G Kadam brings expertise, warmth, and unwavering
+                commitment to every patient interaction. She believes in making
                 dentistry a comfortable, transparent experience — no unnecessary
                 treatments, only what you truly need.
               </p>
@@ -599,11 +600,7 @@ export default function App() {
             {[
               {
                 icon: (
-                  <img
-                    src={LOGO_SRC}
-                    alt=""
-                    className="w-8 h-8 object-contain"
-                  />
+                  <Activity className="w-8 h-8 text-blue-500" />
                 ),
                 title: "Root Canal Treatment",
                 desc: "Pain-free root canal procedures to save your natural tooth and relieve discomfort.",
@@ -670,7 +667,7 @@ export default function App() {
             {[
               {
                 quote:
-                  "I've undergone a root canal procedure from there by Dr. Neil Doshi and I'm extremely happy with the treatment and the hospitality. She explained everything in detail before and after and always followed up by call or text. Highly recommended!",
+                  "I've undergone a root canal procedure from there by Dr. Pravin G Kadam and I'm extremely happy with the treatment and the hospitality. She explained everything in detail before and after and always followed up by call or text. Highly recommended!",
                 name: "Verified Patient",
               },
               {
