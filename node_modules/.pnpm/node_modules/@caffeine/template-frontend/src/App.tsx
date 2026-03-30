@@ -516,7 +516,7 @@ export default function App() {
               <div className="rounded-2xl overflow-hidden shadow-card max-w-sm mx-auto">
                 <img
                   src="/images/doctor.jpg"
-                  alt="Dr. Neil D"
+                  alt="Dr. Neil Doshi"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -532,13 +532,13 @@ export default function App() {
                   Meet Your Doctor
                 </p>
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                  Dr. Priya G Kadam
+                  Dr. Neil Doshi
                 </h2>
                 <p className="text-gray-500 mt-1">BDS · Dental Surgeon</p>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Dr. Priya G Kadam brings expertise, warmth, and unwavering
-                commitment to every patient interaction. She believes in making
+                Dr. Neil Doshi brings expertise, warmth, and unwavering
+                commitment to every patient interaction. He believes in making
                 dentistry a comfortable, transparent experience — no unnecessary
                 treatments, only what you truly need.
               </p>
@@ -670,7 +670,7 @@ export default function App() {
             {[
               {
                 quote:
-                  "I've undergone a root canal procedure from there by Dr. Priya G Kadam and I'm extremely happy with the treatment and the hospitality. She explained everything in detail before and after and always followed up by call or text. Highly recommended!",
+                  "I've undergone a root canal procedure from there by Dr. Neil Doshi and I'm extremely happy with the treatment and the hospitality. She explained everything in detail before and after and always followed up by call or text. Highly recommended!",
                 name: "Verified Patient",
               },
               {
